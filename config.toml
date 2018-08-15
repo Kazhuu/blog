@@ -1,0 +1,20 @@
+baseURL = "https://kazooiebombchu.github.io"
+languageCode = "en-us"
+title = "Mauri Mustonen"
+theme = "whiteplain"
+
+copyright = "&copy; Copyright 2018 Mauri Mustonen"
+
+[params.author]
+  name = "Mauri Mustonen"
+  # Gravatar or Abatar image
+  gravatar = "Gravatar email or MD5 Hash"
+  youtube = "kazooie"
+  github = "kazooiebombchu"
+  email = "mauri_mustonen@hotmail.com"
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
