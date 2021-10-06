@@ -11,4 +11,4 @@ is connected to this spot. The coil on the right measures ~150 ohms.
 
 Ten smaller coils around the magneto are used for general voltage output and are
 connected in series. These are connected to yellow and yellow/black wires of the
-magneto. After the fix these measures around ~1 ohm.
+magneto. After the fix these measures around ~0.8 ohms.
