@@ -3,12 +3,11 @@ languageCode = "en-us"
 title = "Mauri Mustonen"
 theme = "whiteplain"
 
-copyright = "&copy; Copyright 2020 Mauri Mustonen"
+copyright = "&copy; Copyright 2021 Mauri Mustonen"
 
 [params.author]
   name = "Mauri Mustonen"
-  # Gravatar or Abatar image
-  gravatar = "Gravatar email or MD5 Hash"
+  avatar = "/about/avatar.jpg"
   youtube = "kazooie"
   github = "kazhuu"
   email = "mauri_mustonen@hotmail.com"

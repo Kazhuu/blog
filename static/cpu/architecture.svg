@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="architecture.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:lockguides="false"
+     inkscape:zoom="0.92851414"
+     inkscape:cx="570.26595"
+     inkscape:cy="467.95195"
+     inkscape:window-width="2560"
+     inkscape:window-height="1394"
+     inkscape:window-x="0"
+     inkscape:window-y="46"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path66398" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path66425" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path66428" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path66404" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path66407" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path66401" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path66422" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path66413" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1062"
+       width="31.447254"
+       height="14.674072"
+       x="92.145157"
+       y="60.16914"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1166"
+       width="31.447254"
+       height="14.674072"
+       x="92.145157"
+       y="85.577492"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1168"
+       width="31.447254"
+       height="14.674072"
+       x="92.145157"
+       y="111.24216"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1172"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="135.60873"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1254"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="161.3447"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1256"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="110.22674"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1258"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="85.485176"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1260"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="59.166973"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.517432;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1262"
+       width="31.447254"
+       height="14.674072"
+       x="179.32646"
+       y="35.639622"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:0.85;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="99.715958"
+       y="70.077942"
+       id="text4390"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan4388"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="99.715958"
+         y="70.077942">MAR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:0.85;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+       x="100.10181"
+       y="95.48629"
+       id="text16030"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan16028"
+         style="font-size:7.05556px;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+         x="100.10181"
+         y="95.48629">RAM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="104.13258"
+       y="121.15096"
+       id="text34102"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan34100"
+         style="stroke-width:0.264583"
+         x="104.13258"
+         y="121.15096">IR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="190.30447"
+       y="45.544979"
+       id="text37160"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan37158"
+         style="stroke-width:0.264583"
+         x="190.30447"
+         y="45.544979">PC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="192.63852"
+       y="69.075775"
+       id="text40848"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan40846"
+         style="stroke-width:0.264583"
+         x="192.63852"
+         y="69.075775">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="188.54402"
+       y="95.344025"
+       id="text42898"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan42896"
+         style="stroke-width:0.264583"
+         x="188.54402"
+         y="95.344025">ALU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="192.53345"
+       y="120.13554"
+       id="text48776"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan48774"
+         style="stroke-width:0.264583"
+         x="192.53345"
+         y="120.13554">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="187.3279"
+       y="145.51408"
+       id="text50694"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan50692"
+         style="stroke-width:0.264583"
+         x="187.3279"
+         y="145.51408">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="181.8054"
+       y="170.62822"
+       id="text52480"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan52478"
+         style="stroke-width:0.264583"
+         x="181.8054"
+         y="170.62822">Display</tspan></text>
+    <path
+       id="rect56003"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.623622;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 559.00195,131.04688 v 119.87109 h -82.11133 l 0.0234,-4.30859 -8.57812,8.57617 8.48828,8.48633 0.0234,-4.30665 h 82.15429 V 581.00977 H 586.1464 V 550.7832 h 73.64454 l -0.0723,5.0918 16.26953,-16.26953 -15.8164,-15.81641 -0.0723,5.0918 H 586.14648 V 131.04688 Z"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path101941"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 128.13636,88.666999 -4.18475,4.184759 4.30464,4.304646 -0.0191,-1.347205 h 15.3939 l -0.0191,1.347205 4.30464,-4.304646 -4.18476,-4.184759 -0.0191,1.347206 h -15.5572 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path110400"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 128.13636,110.0367 -4.18475,4.18476 4.30464,4.30465 -0.0191,-1.34721 h 15.3939 l -0.0191,1.34721 4.30464,-4.30465 -4.18476,-4.18476 -0.0191,1.34721 h -15.5572 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path110402"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 159.24115,88.574685 -4.18475,4.184759 4.30464,4.304646 -0.0191,-1.347205 h 15.3939 l -0.0191,1.347205 4.30464,-4.304646 -4.18476,-4.184759 -0.0191,1.347206 h -15.5572 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path110404"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 159.24115,113.31625 -4.18475,4.18476 4.30464,4.30464 -0.0191,-1.3472 h 15.3939 l -0.0191,1.3472 4.30464,-4.30464 -4.18476,-4.18476 -0.0191,1.3472 h -15.5572 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path110406"
+       style="fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 159.24115,62.256485 -4.18475,4.18476 4.30464,4.30464 -0.0191,-1.3472 h 15.3939 l -0.0191,1.3472 4.30464,-4.30464 -4.18476,-4.18476 -0.0191,1.3472 h -15.5572 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path111726"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 157.43432,40.719431 -2.26912,2.269112 2.24534,2.245341 0.006,-1.13843 h 19.22104 l 0.006,1.13843 2.24535,-2.245341 -2.26963,-2.269112 0.006,1.138434 h -19.1978 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path111877"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#8fbeff;fill-opacity:1;stroke:#000000;stroke-width:0.623622;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       transform="scale(0.26458333)"
+       d="m 549.65625,452.4375 0.0234,4.30859 h -81.16992 v 8.44727 h 81.21289 l 0.0234,4.30664 8.48633,-8.48633 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path112669"
+       style="fill:#bcbcbe;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 106.71123,75.365942 v 7.66413 l -1.09864,-0.0057 2.26911,2.269627 2.24534,-2.245857 -1.09864,-0.0057 v -7.676533 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path113803"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcbcbe;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 106.71129,126.58294 v 7.66413 l -1.09864,-0.006 2.26911,2.26963 2.24534,-2.24586 -1.09864,-0.006 v -7.67653 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path113897"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcbcbe;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 191.97664,74.450438 v 6.501418 l -1.20437,-0.01764 3.9358,4.08207 3.82619,-3.968378 -1.21287,-0.01764 V 74.45045 Z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path114234"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcbcbe;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 192.09248,150.75754 v 6.22006 l -1.15225,-0.0168 3.76547,3.90541 3.6606,-3.79664 -1.16038,-0.0168 v -6.29507 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path114316"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#bcbcbe;fill-opacity:1;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 192.3319,109.81419 v -5.63851 l -1.04452,0.0152 3.41342,-3.54027 3.31835,3.44167 -1.0519,0.0153 v 5.7065 z"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="146.58011"
+       y="33.218071"
+       id="text124497"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan124495"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="146.58011"
+         y="33.218071">BUS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="178.60994"
+       y="30.317886"
+       id="text131613"><tspan
+         sodipodi:role="line"
+         id="tspan131611"
+         style="stroke-width:0.264583"
+         x="178.60994"
+         y="30.317886"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="160.58347"
+       y="40.473145"
+       id="text137507"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan137505"
+         style="stroke-width:0.264583"
+         x="160.58347"
+         y="40.473145">4 LSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="129.49049"
+       y="63.918785"
+       id="text142799"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan142797"
+         style="stroke-width:0.264583"
+         x="129.49049"
+         y="63.918785">4 LSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="129.49049"
+       y="128.40207"
+       id="text142803"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan142801"
+         style="stroke-width:0.264583"
+         x="129.49049"
+         y="128.40207">4 LSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="91.79554"
+       y="82.351105"
+       id="text142807"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan142805"
+         style="stroke-width:0.264583"
+         x="91.79554"
+         y="82.351105">4 LSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="91.79554"
+       y="132.5883"
+       id="text142811"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan142809"
+         style="stroke-width:0.264583"
+         x="91.79554"
+         y="132.5883">4 MSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="7.3166142"
+       y="70.105576"
+       id="text152727"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan152725"
+         style="stroke-width:0.264583"
+         x="7.3166142"
+         y="70.105576">Memory address register In (MI)</tspan></text>
+    <g
+       id="g211571"
+       transform="translate(3.4726162)"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="51.789791"
+         y="91.795105"
+         id="text162639"><tspan
+           sodipodi:role="line"
+           id="tspan162637"
+           style="stroke-width:0.264583"
+           x="51.789791"
+           y="91.795105">RAM In (RI)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="45.477188"
+         y="98.444557"
+         id="text164095"><tspan
+           sodipodi:role="line"
+           id="tspan164093"
+           style="stroke-width:0.264583"
+           x="45.477188"
+           y="98.444557">RAM Out (RO)</tspan></text>
+    </g>
+    <g
+       id="g211565"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="23.502321"
+         y="117.97511"
+         id="text166031"><tspan
+           sodipodi:role="line"
+           id="tspan166029"
+           style="stroke-width:0.264583"
+           x="23.502321"
+           y="117.97511">Instruction register In (II)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="17.189718"
+         y="124.12957"
+         id="text168125"><tspan
+           sodipodi:role="line"
+           id="tspan168123"
+           style="stroke-width:0.264583"
+           x="17.189718"
+           y="124.12957">Instruction register Out (IO)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="98.521042"
+       y="141.33028"
+       id="text188619"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan188617"
+         style="stroke-width:0.264583"
+         x="98.521042"
+         y="141.33028">Instruction</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="98.521042"
+         y="147.0629"
+         id="tspan188621">decoder</tspan></text>
+    <g
+       id="g211537"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="221.22334"
+         y="38.651417"
+         id="text194871"><tspan
+           sodipodi:role="line"
+           id="tspan194869"
+           style="stroke-width:0.264583"
+           x="221.22334"
+           y="38.651417">(CO) program Counter Out</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="221.22334"
+         y="44.160572"
+         id="text197053"><tspan
+           sodipodi:role="line"
+           id="tspan197051"
+           style="stroke-width:0.264583"
+           x="221.22334"
+           y="44.160572">(J) Jump (program counter in)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="221.22334"
+         y="49.842155"
+         id="text199015"><tspan
+           sodipodi:role="line"
+           id="tspan199013"
+           style="stroke-width:0.264583"
+           x="221.22334"
+           y="49.842155">(CE) Count enable (increment)</tspan></text>
+    </g>
+    <g
+       id="g211529"
+       transform="translate(-1.7891083,-0.9447374)"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="223.01245"
+         y="65.947548"
+         id="text200449"><tspan
+           sodipodi:role="line"
+           id="tspan200447"
+           style="stroke-width:0.264583"
+           x="223.01245"
+           y="65.947548">(AI) A register In</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="223.01245"
+         y="71.480362"
+         id="text202279"><tspan
+           sodipodi:role="line"
+           id="tspan202277"
+           style="stroke-width:0.264583"
+           x="223.01245"
+           y="71.480362">(AO) A register Out</tspan></text>
+    </g>
+    <g
+       id="g211523"
+       transform="translate(-3.1688538,2.8212447)"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="224.3922"
+         y="88.92762"
+         id="text204461"><tspan
+           sodipodi:role="line"
+           id="tspan204459"
+           style="stroke-width:0.264583"
+           x="224.3922"
+           y="88.92762">(EO) Sum Out</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="224.3922"
+         y="93.949585"
+         id="text205587"><tspan
+           sodipodi:role="line"
+           id="tspan205585"
+           style="stroke-width:0.264583"
+           x="224.3922"
+           y="93.949585">(SU) SUbtract</tspan></text>
+    </g>
+    <g
+       id="g211423"
+       transform="translate(-0.41441345,-0.74530884)"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="221.63776"
+         y="116.81266"
+         id="text207307"><tspan
+           sodipodi:role="line"
+           id="tspan207305"
+           style="stroke-width:0.264583"
+           x="221.63776"
+           y="116.81266">(BI) B register In</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+         x="221.63776"
+         y="122.33592"
+         id="text208147"><tspan
+           sodipodi:role="line"
+           id="tspan208145"
+           style="stroke-width:0.264583"
+           x="221.63776"
+           y="122.33592">(BO) B register Out</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
+       x="221.22334"
+       y="144.21098"
+       id="text210359"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan210357"
+         style="stroke-width:0.264583"
+         x="221.22334"
+         y="144.21098">(OI) Ouput register In</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 80.713065,68.75133 h 10.23525"
+       id="path211606"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 80.713065,90.456406 h 10.23525"
+       id="path211696"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 80.713065,97.101158 h 10.23525"
+       id="path211698"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 80.713065,116.57468 h 10.23525"
+       id="path211700"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 80.713065,122.84426 h 10.23525"
+       id="path211702"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,119.96962 h -9.41413"
+       id="path211704"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,114.60275 h -9.41413"
+       id="path211706"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,142.60186 h -9.41413"
+       id="path211708"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,95.730576 h -9.41413"
+       id="path211710"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,90.307046 h -9.41413"
+       id="path211712"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,69.165355 h -9.41413"
+       id="path211714"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,63.58477 h -9.41413"
+       id="path211716"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,48.642405 h -9.41413"
+       id="path211718"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,42.88308 h -9.41413"
+       id="path211720"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.261458px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 221.15381,37.391249 h -9.41413"
+       id="path211722"
+       inkscape:export-filename="/home/kazhuu/programming/blog/static/cpu/architecture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
