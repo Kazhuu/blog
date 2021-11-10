@@ -4,40 +4,43 @@ date: 2021-10-31T10:24:11+02:00
 draft: true
 ---
 
-This month I finally finished building my version of an 8-bit breadboard computer.
- This computer is based on amazing done by Ben Eater. More information on that
- you can find [here](https://eater.net/8bit/). In this blog post I will give you
-summary of the computer, its instructions and also make it execute a simple program. I also describe my experience building this along the way.
-
-Below is a picture of my
-build.
+This month I finally finished building my version of Ben Eater's 8-bit
+breadboard computer. This computer is based on amazing work done by Ben Eater.
+More information about this project you can find on his
+[website](https://eater.net/8bit/). In this blog post I will give you a summary
+of the computer and how it works.  I also describe my experience and some issues
+I faced when building this.  Below is a picture of my build.
 
 ![computer](/cpu/computer.jpg)
 
-I started working on this project back then when Ben was doing the video series
-and not selling ready made kits for builders. And there was no official schematics
-available either. That meant I spend time watching the videos and noting the parts I need
-to order myself. In total this project has taken more than 100 hours to get to
-this point, including studying, building and troubleshooting.
+I started working on this project back then when Ben was middle of doing the
+video series and not yet selling building kits. Also there was no official
+schematics available either. That meant I spend a lot of time watching the
+videos and taking notes of the parts I need to order. In total this project has
+taken more than 100 hours to complete, including studying, building and
+troubleshooting.
 
 You may ask why would you want build something like this? Here are couple of
 things why I got so hooked into this in the first place:
 
-* learn how CPU hardware works and what parts it consist of,
-* learn how binary code is executed by the hardware,
+* learn how CPU works and what parts it consist of,
 * learn what microcode is and how it controls the different parts of the
     hardware,
-* learn how bus data works,
-* learn tons about logic gates, three-state logic, adders etc.
+* learn how compiled binary code is actually executed by the hardware,
+* you will have much better picture of the whole software stack all way to the
+    hardware,
+* and learn about logic gates, three-state logic, adders etc.
 
-And the list goes on. In general if you want to learn CPU on low level.
-This is very good project to try. You will get much better picture how
-CPU operates in low level. Then when you read about more
-advanced CPU features like instructions pipelining, they become easier to grasp. At
-least that was the case for me that this project really helped me to understand
-CPU hardware so much better as a software developer.
+And the list goes on. In general if you want to learn CPU on low level, this is
+very good project to give a try. You will get much better picture how CPU
+operates in general. Then when you read about more advanced CPU features like
+instruction pipelining, they become easier to grasp. At least that was the case
+for me that this project really helped me to fill the knowledge gaps that I
+didn't fully understand.
 
 ## Architecture
+
+TODO: Revise from here on.
 
 This computer has only 4 bits to address the RAM. That means, you only have 16 bytes of
 RAM in total for the program and its data. Below is picture of architecture of
@@ -75,7 +78,7 @@ that instruction. Not all instructions take argument. Below is a table of all
 instructions that computer supports. `XXXX` means that that instruction does not
 take argument and bits does not matter.
 
-| Mnemonic | Opcode | Parameter | Explanation |
+| Mnemonic | Opcode | Argument | Explanation |
 |---|---|---|---|
 | NOP | 0000 | XXXX | No operation (no-op) |
 | LDA | 0001 | Address | Load value from Address to A register |
@@ -87,14 +90,73 @@ take argument and bits does not matter.
 | OUT | 1110 | XXXX | Display content of A register  |
 | HLT | 1111 | XXXX | Halt the computer and stop execution |
 
-## Simple Program
+With above simple instructions you could for example write a simple program
+that will keep adding 3 in the endless loop.
 
-Show simple program and walk through it.
+```
+LDI 0   ;Load 0 to A register
+ADD 15  ;Add value at address 15 to A register
+OUT     ;Display A register value
+JMP 1   ;Jump back to ADD 15 instruction
+```
 
-## Things I Changed
+To program this we need to program RAM according the table below.
+Execution always starts at address 0.
 
-Explain better power lines because of bad quality breadboards.
+| Address | Value | Instruction |
+|---|---|---|
+| 0 | 0101 0000 | LDI 0 |
+| 1 | 0010 1111 | ADD 15 |
+| 2 | 1110 0000 | OUT |
+| 3 | 0110 0001 | JMP 1 |
+| ... | ... | ... |
+| 15 | 0000 0011 | Value 3 loaded by ADD 15 instruction |
+
+Notice we need to set address 15 to have the value used by `ADD 15` instruction.
+Other addresses does not matter because they will never be read. Programming the
+computer is done by manually setting the bits of each address using DIP switches. Below how it looks like when working correctly.
+
+![Add 3 in a loop](/cpu/add3.gif)
+
+## Power Delivery Problems
+
+Power delivery can be an issue depending on quality of the breadboards you are
+using. Meaning that even you supply 5V to the computer in one side. You will measure
+around 3.5V on another side. This causes random logic level
+failures like reading signal low even it is supposed to be high, random bit
+flipping when poking the wires and the running program not working
+reliably. This is caused
+by loose connections between the jumper wires and the breadboard connectors.
+Multiply this effect many times and you will get a noticeable voltage drop.
+
+For my build I used the breadboards I ordered online labeled as BB830 brand from
+BusBoard. Which are supposed to be high quality breadboards. Ben also explains about this breadboard in his video
+[here](https://youtu.be/HtFro0UKqkk?t=794) and recommends them. Of course the
+problem is the ones I ordered are not the real thing. These can be seen by not
+aligned numbering of columns and not properly labeled rows.
+
+Fortunately this problem is quite easy to fix. You need to replace
+power jumper wire connections with wires soldered on header pins. You can see my
+installation image below.
+
+![power lines](/cpu/power-wires.jpg)
+
+The whole computer is surrounded by these soldered lines. With this simple
+change I was able to rise to voltage levels up to 4.7V from 3.5V. Then I was
+able to run program loop more than 8 hours straight without any issues.
 
 ## Final Thoughts
 
-What I felt and liked about this.
+As a software developer I really liked this project and it taught me a lot of
+low level things that I was not fully aware of like CPU design and machine code.
+After this project I can say I have much better picture of the whole software
+stack all way to the hardware. Also knowledge gained from this project has been
+enormously helpful when I have studied hardware description language like VHDL
+and reading about low level CPU stuff like CPU design and how it operates.
+
+As a final words I could not recommend this project enough for someone who want
+to know how stuff works at deeper level. Ben's video series is quite amazingly
+done and documented. Also nowadays selling a ready made kit makes the whole
+process getting started so much easier.
+
+And thank you for reading this far!
