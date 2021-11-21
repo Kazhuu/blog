@@ -23,10 +23,9 @@ troubleshooting.
 You may ask why would you want build something like this? Here are couple of
 things why I got so hooked into this in the first place:
 
-* learn how CPU works and what parts it consist of,
-* learn what microcode is and how it controls the different parts of the
-    hardware,
-* learn how compiled binary code is actually executed by the hardware,
+* learn how CPU works on low level,
+* learn about microcode and what it is,
+* learn how binary code is actually executed by the hardware,
 * you will have much better picture of the whole software stack all way to the
     hardware,
 * and learn about logic gates, three-state logic, adders etc.
@@ -40,18 +39,20 @@ didn't fully understand.
 
 ## Architecture
 
-TODO: Revise from here on.
+TODO: Finish this section
 
-This computer has only 4 bits to address the RAM. That means, you only have 16 bytes of
-RAM in total for the program and its data. Below is picture of architecture of
+Below is picture of the architecture of
 the computer. Photo is drawn by me but taken from Ben's video.
 
 ![Architecture](/cpu/architecture.png)
 
-Different parts of the computer are connected by bus, which is used to transport
-data between the components. Some components only connect 4 [least
-significant bits (LSB)](https://en.wikipedia.org/wiki/Bit_numbering). This is because addressing is only 4 bits. Below is a table of acronyms and short explanation
-for each.
+Architecture of the CPU consist of different parts connected to each other by
+data bus. Data bus is used to transport data between different components.
+Arrows in the picture show the direction the data can move to.  For proper
+operation of the CPU, only one component feed data to the bus and one will read
+it. Orchestrating this is done by `Instruction Decoder` and
+[microcode](https://en.wikipedia.org/wiki/Microcode). Below is table of
+different parts of the computer and their explanation.
 
 | Acronym | Expanded | Explanation |
 |---|---|---|
@@ -64,6 +65,20 @@ for each.
 | ALU | Arithmetic Logic Unit | Unit doing the addition or subtraction operation with content of A and B registers and put the result back to A register.
 | OUT | Ouput register | 8 bit register to hold value to be displayed by seven-segment display.
 | Display | -- | Seven-segment display to display numbers.
+
+Full bus connection is 8 bits and
+some components only connect 4 [least
+significant bits (LSB)](https://en.wikipedia.org/wiki/Bit_numbering). These 4
+LSB bits with `Memory Address Register` and `Program Counter` are used for
+addressing the RAM. Four bits from `Instruction Register` are used for
+instruction parameter. Using 4 bits for address means that computer can address
+only 16 bytes of RAM. This RAM needs to contain both program instructions and
+program data.
+
+
+
+This computer has only 4 bits to address the RAM. This means, you only have 16 bytes of
+RAM in total for the program and its data. 
 
 If you already watched Ben's video series you might notice that status register
 is missing from my build. This is because I ordered the parts for this build
