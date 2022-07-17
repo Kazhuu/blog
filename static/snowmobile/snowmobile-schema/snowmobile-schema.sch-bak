@@ -1,0 +1,326 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 8268 4331
+encoding utf-8
+Sheet 1 1
+Title "Lynx Rotax 380 wiring diagram"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 5389 1412
+Wire Wire Line
+	6339 1412 5389 1412
+Wire Wire Line
+	6339 2112 6339 1412
+Wire Wire Line
+	7239 2112 6339 2112
+Wire Wire Line
+	6689 1862 6739 1862
+Connection ~ 6689 1862
+Connection ~ 6689 1412
+Wire Wire Line
+	6689 1412 6689 1862
+Wire Wire Line
+	6689 962  6689 1412
+Wire Wire Line
+	6489 962  6689 962 
+Wire Wire Line
+	6689 962  6839 962 
+Connection ~ 6689 962 
+Wire Wire Line
+	6839 1412 6689 1412
+$Comp
+L Motor:Motor_DC M1
+U 1 1 61BDD721
+P 6939 1862
+F 0 "M1" V 7234 1812 50  0000 C CNN
+F 1 "Engine hours" V 7143 1812 50  0000 C CNN
+F 2 "" H 6939 1772 50  0001 C CNN
+F 3 "~" H 6939 1772 50  0001 C CNN
+	1    6939 1862
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4489 1862 6689 1862
+Wire Wire Line
+	7239 1862 7239 1412
+Wire Wire Line
+	7239 2112 7239 1862
+Connection ~ 7239 1862
+Text Label 5939 962  0    50   ~ 0
+yellow
+Text Label 6539 2112 0    50   ~ 0
+yellow-black
+Text Label 4589 2012 0    50   ~ 0
+red
+Text Label 4589 1862 0    50   ~ 0
+red-blue
+Text Label 6489 962  0    50   ~ 0
+gray
+Text Label 4939 1262 0    50   ~ 0
+black
+Text Label 4939 1062 0    50   ~ 0
+red
+Wire Wire Line
+	5939 2012 4489 2012
+Wire Wire Line
+	5939 962  6089 962 
+Connection ~ 5939 962 
+Wire Wire Line
+	5939 962  5939 2012
+Wire Wire Line
+	5389 1412 5239 1412
+Wire Wire Line
+	5389 962  5539 962 
+Connection ~ 5389 962 
+Wire Wire Line
+	5389 1012 5389 962 
+Wire Wire Line
+	5239 962  5389 962 
+Wire Wire Line
+	7239 1412 7239 962 
+Connection ~ 7239 1412
+Wire Wire Line
+	7139 1412 7239 1412
+Wire Wire Line
+	7239 962  7139 962 
+Wire Wire Line
+	1089 912  1539 912 
+$Comp
+L Device:Battery BT1
+U 1 1 61BCC383
+P 5389 1212
+F 0 "BT1" H 5497 1258 50  0000 L CNN
+F 1 "Battery 12V" H 5497 1167 50  0000 L CNN
+F 2 "" V 5389 1272 50  0001 C CNN
+F 3 "~" V 5389 1272 50  0001 C CNN
+	1    5389 1212
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5839 962  5939 962 
+Wire Wire Line
+	5239 1262 5239 1412
+NoConn ~ 4489 2162
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 61C06D1E
+P 6289 962
+F 0 "SW1" H 6289 1197 50  0000 C CNN
+F 1 "Light switch" H 6289 1106 50  0000 C CNN
+F 2 "" H 6289 962 50  0001 C CNN
+F 3 "~" H 6289 962 50  0001 C CNN
+	1    6289 962 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61BDA5E0
+P 6989 1412
+F 0 "D2" H 6982 1157 50  0000 C CNN
+F 1 "Backlight leds 12V" H 6982 1248 50  0000 C CNN
+F 2 "" H 6989 1412 50  0001 C CNN
+F 3 "~" H 6989 1412 50  0001 C CNN
+	1    6989 1412
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61BD4D6C
+P 6989 962
+F 0 "D1" H 6982 707 50  0000 C CNN
+F 1 "Headlight leds 12V" H 6982 798 50  0000 C CNN
+F 2 "" H 6989 962 50  0001 C CNN
+F 3 "~" H 6989 962 50  0001 C CNN
+	1    6989 962 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 61BCEDD6
+P 5689 962
+F 0 "F1" V 5492 962 50  0000 C CNN
+F 1 "7.5A" V 5583 962 50  0000 C CNN
+F 2 "" V 5619 962 50  0001 C CNN
+F 3 "~" H 5689 962 50  0001 C CNN
+	1    5689 962 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4889 1262 5239 1262
+Wire Wire Line
+	5239 1062 5239 962 
+Wire Wire Line
+	4889 1062 5239 1062
+Text Label 3939 1262 0    50   ~ 0
+yellow-black
+Text Label 4039 1062 0    50   ~ 0
+yellow
+Wire Wire Line
+	3939 1262 4389 1262
+Wire Wire Line
+	3939 1062 4389 1062
+$Comp
+L snowmobile-parts:866080 U1
+U 1 1 61BC7807
+P 4639 1162
+F 0 "U1" H 4639 1487 50  0000 C CNN
+F 1 "866080" H 4639 1396 50  0000 C CNN
+F 2 "" H 4639 1312 50  0001 C CNN
+F 3 "" H 4639 1312 50  0001 C CNN
+	1    4639 1162
+	1    0    0    -1  
+$EndComp
+Text Label 2239 2162 0    50   ~ 0
+black
+Text Label 1939 1762 0    50   ~ 0
+yellow-black
+NoConn ~ 2839 2012
+Connection ~ 2589 2162
+Wire Wire Line
+	2589 2162 2839 2162
+Connection ~ 1839 1762
+Wire Wire Line
+	2489 1862 2839 1862
+Wire Wire Line
+	2489 1762 2489 1862
+Wire Wire Line
+	1839 1762 2489 1762
+$Comp
+L snowmobile-parts:KEY U2
+U 1 1 61BC1045
+P 3239 1612
+F 0 "U2" H 3664 1627 50  0000 C CNN
+F 1 "Key lock" H 3664 1536 50  0000 C CNN
+F 2 "" H 3589 1312 50  0001 C CNN
+F 3 "" H 3589 1312 50  0001 C CNN
+	1    3239 1612
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2589 2162 1839 2162
+$Comp
+L power:GND #PWR?
+U 1 1 61BE8B69
+P 2589 2312
+F 0 "#PWR?" H 2589 2062 50  0001 C CNN
+F 1 "GND" H 2594 2139 50  0000 C CNN
+F 2 "" H 2589 2312 50  0001 C CNN
+F 3 "" H 2589 2312 50  0001 C CNN
+	1    2589 2312
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2589 2162 2589 2312
+$Comp
+L power:GND #PWR?
+U 1 1 61BCCA7F
+P 1089 1012
+F 0 "#PWR?" H 1089 762 50  0001 C CNN
+F 1 "GND" H 1094 839 50  0000 C CNN
+F 2 "" H 1089 1012 50  0001 C CNN
+F 3 "" H 1089 1012 50  0001 C CNN
+	1    1089 1012
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1439 1762 1839 1762
+Wire Wire Line
+	1439 1362 1439 1762
+Wire Wire Line
+	1539 1362 1439 1362
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 61BD51C3
+P 1839 1962
+F 0 "SW2" V 1885 1874 50  0000 R CNN
+F 1 "Shutdown switch" V 1794 1874 50  0000 R CNN
+F 2 "" H 1839 1962 50  0001 C CNN
+F 3 "~" H 1839 1962 50  0001 C CNN
+	1    1839 1962
+	0    -1   -1   0   
+$EndComp
+Text Label 1139 912  0    50   ~ 0
+brown
+$Comp
+L snowmobile-parts:PICKUP_COIL U4
+U 1 1 61BCB114
+P 839 962
+F 0 "U4" H 876 1237 50  0000 C CNN
+F 1 "Pickup coil" H 876 1146 50  0000 C CNN
+F 2 "" H 839 962 50  0001 C CNN
+F 3 "" H 839 962 50  0001 C CNN
+	1    839  962 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1539 1212 1439 1212
+Wire Wire Line
+	1539 1062 1439 1062
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61BC7915
+P 1439 1212
+F 0 "TP?" V 1634 1284 50  0001 C CNN
+F 1 "Spark plug" V 1542 1284 50  0000 C CNN
+F 2 "" H 1639 1212 50  0001 C CNN
+F 3 "~" H 1639 1212 50  0001 C CNN
+	1    1439 1212
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61BC5F8D
+P 1439 1062
+F 0 "TP?" V 1634 1134 50  0001 C CNN
+F 1 "Spark plug" V 1542 1134 50  0000 C CNN
+F 2 "" H 1639 1062 50  0001 C CNN
+F 3 "~" H 1639 1062 50  0001 C CNN
+	1    1439 1062
+	0    -1   -1   0   
+$EndComp
+Text Label 2989 1262 0    50   ~ 0
+white
+Text Label 2989 1062 0    50   ~ 0
+green
+Wire Wire Line
+	2889 1262 3339 1262
+Wire Wire Line
+	2889 1062 3339 1062
+Wire Wire Line
+	2889 1362 2789 1362
+Wire Wire Line
+	2889 1262 2889 1362
+Wire Wire Line
+	2889 912  2789 912 
+Wire Wire Line
+	2889 1062 2889 912 
+$Comp
+L snowmobile-parts:Stator C1
+U 1 1 61BAEC22
+P 3639 1162
+F 0 "C1" H 3600 1560 50  0000 C CNN
+F 1 "Stator" H 3600 1469 50  0000 C CNN
+F 2 "" H 3639 1162 50  0001 C CNN
+F 3 "" H 3639 1162 50  0001 C CNN
+	1    3639 1162
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowmobile-parts:CDI U3
+U 1 1 61BAAE07
+P 2089 1162
+F 0 "U3" H 2064 1677 50  0000 C CNN
+F 1 "CDI" H 2064 1586 50  0000 C CNN
+F 2 "" H 1839 1362 50  0001 C CNN
+F 3 "" H 1839 1362 50  0001 C CNN
+	1    2089 1162
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

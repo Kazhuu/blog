@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name snowmobile-parts)(type Legacy)(uri ${KIPRJMOD}/snowmobile-parts.lib)(options "")(descr ""))
+)
